@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blobby Staff Applications</title>
-        <style>@import url("https://frcss.vercel.app/formrocket.css");.frcss_card {
-            margin:10px;
-        }#pagedesc {
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blobby Staff Applications</title>
+    <style>
+        @import url("https://frcss.vercel.app/formrocket.css");
+
+        .frcss_card {
+            margin: 10px;
+        }
+
+        #pagedesc {
             margin-bottom: 5%;
-        }red {
-            color:red;
-        }</style>
-    </head>
-    <body>
-        <h3>BLOBBY</h3>
-        <h1>Staff Applications</h1>
-        <p id="pagedesc">The official staff application for Blobby, it&apos;s Discord server, and it&apos;s projects. <b>You must be in the Discord or auto deny.</b></p>
-        <form method="POST" action="https://www.formrocket.me/api/forms/74219764/Blobby%20Staff/58568893238714150/post/showSuccessMessageOnDone/?message=You will be contacted via Discord if you get accepted.">
-            <div class="frcss_card">
-            <h3>Discord ID<red>*</red></h3>
+        }
+
+        red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>BLOBBY</h3>
+    <h1>Staff Applications</h1>
+    <p id="pagedesc">The official staff application for Blobby, it&apos;s Discord server, and it&apos;s projects. <b>You
+            must be in the Discord or auto deny.</b></p>
+    <form method="POST"
+        action="https://www.formrocket.me/api/forms/74219764/Blobby%20Staff/58568893238714150/post/showSuccessMessageOnDone/?message=You will be contacted via Discord if you get accepted.">
+        <div class="frcss_card">
+            <h3>Discord ID<red>*</red>
+            </h3>
             <p>Enter your Discord ID. (Not your username or tag, your <u>ID</u>)</p>
             <input name="id" placeholder="123456789123456789" type="number" required />
-            </div>
-            <div class="frcss_card">
-                <h3>Discord Username<red>*</red></h3>
-                <p>Enter your Discord Username. (Not your ID or tag, your <u>username</u>)</p>
-                <input name="username" placeholder="Cool Person" type="text" required />
-                </div>
-                <div class="frcss_card">
-                    <h3>Discord Discriminator<red>*</red></h3>
-                    <p>Enter your Discord Tag #. (Not your username or ID, your <u>tag #</u>)</p>
-                    <input name="discriminator" placeholder="7777" type="number" required />
-                    </div>
-                    <div class="frcss_card">
-                        <h3>Role You&apos;re Applying For<red>*</red></h3>
-                        <p>Pick from the available roles.</p>
-                        <select name="role" style="padding:6px;border-radius:3px;background-color:#121212!important;color:white;margin-top:6px;outline:none;">
-                            <option value="dsc_mod">Discord Moderator</option>
-                            <option value="app_mod">App Moderator</option>
-                            <option value="dscBot_dev">Discord Bot Developer</option>
-                            <option value="bcknd_dev">Backend Developer</option>
-                            <option value="frntnd_dev">Frontend Developer</option>
-                            <option value="fllstck_dev">Full-stack Developer</option>
-                            <option value="dsc_supportStaff">Discord Support Staff</option>
-                        </select>
-                        </div>
-                        <div class="frcss_card">
-                            <h3>List Any Previous Experience(s)</h3>
-                            <p>Not required, but will highly effect whether you get approved or not.</p>
-                            <textarea name="experience" placeholder="Creator of google"></textarea>
-                            </div>
-                            <div class="frcss_card">
-                                <h3>Why Are You Applying For This Role?<red>*</red></h3>
-                                <p>Be as detailed as possible.</p>
-                                <textarea name="why_applying_for_role" placeholder="Because why not" required></textarea>
-                                </div>
-                                <div class="frcss_card">
-                                    <h3>Tell Us A Bit More About Yourself<red>*</red></h3>
-                                    <p>We would love to know who you are.</p>
-                                    <textarea name="about" placeholder="I am CEO of everything" required></textarea>
-                                    </div>
-                                    <center>
-                                        <h2>That&apos;s it!</h2>
-                        <p>Click the button below to apply!</p>
+        </div>
+        <div class="frcss_card">
+            <h3>Discord Username<red>*</red>
+            </h3>
+            <p>Enter your Discord Username. (Not your ID or tag, your <u>username</u>)</p>
+            <input name="username" placeholder="Cool Person" type="text" required />
+        </div>
+        <div class="frcss_card">
+            <h3>Discord Discriminator<red>*</red>
+            </h3>
+            <p>Enter your Discord Tag #. (Not your username or ID, your <u>tag #</u>)</p>
+            <input name="discriminator" placeholder="7777" type="number" required />
+        </div>
+        <div class="frcss_card">
+            <h3>Role You&apos;re Applying For<red>*</red>
+            </h3>
+            <p>Pick from the available roles.</p>
+            <select name="role"
+                style="padding:6px;border-radius:3px;background-color:#121212!important;color:white;margin-top:6px;outline:none;">
+                <option value="dsc_mod">Discord Moderator</option>
+                <option value="app_mod">App Moderator</option>
+                <option value="dscBot_dev">Discord Bot Developer</option>
+                <option value="bcknd_dev">Backend Developer</option>
+                <option value="frntnd_dev">Frontend Developer</option>
+                <option value="fllstck_dev">Full-stack Developer</option>
+                <option value="dsc_supportStaff">Discord Support Staff</option>
+            </select>
+        </div>
+        <div class="frcss_card">
+            <h3>List Any Previous Experience(s)</h3>
+            <p>Not required, but will highly effect whether you get approved or not.</p>
+            <textarea name="experience" placeholder="Creator of google"></textarea>
+        </div>
+        <div class="frcss_card">
+            <h3>Why Are You Applying For This Role?<red>*</red>
+            </h3>
+            <p>Be as detailed as possible.</p>
+            <textarea name="why_applying_for_role" placeholder="Because why not" required></textarea>
+        </div>
+        <div class="frcss_card">
+            <h3>Tell Us A Bit More About Yourself<red>*</red>
+            </h3>
+            <p>We would love to know who you are.</p>
+            <textarea name="about" placeholder="I am CEO of everything" required></textarea>
+        </div>
+        <center>
+            <h2>That&apos;s it!</h2>
+            <p>Click the button below to apply!</p>
             <input type="submit" value="Apply" />
-                                    </center>
-        </form>
-        <script src="https://underdot.vercel.app/underdot.js" type="text/javascript"></script>
-    </body>
+        </center>
+    </form>
+    <script src="https://underdot.vercel.app/underdot.js" type="text/javascript"></script>
+</body>
+
 </html>
